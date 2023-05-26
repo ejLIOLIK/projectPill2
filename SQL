@@ -1,0 +1,8 @@
+create table PILL
+(
+ code int not null auto_increment primary key,
+ name varchar(255),
+ company varchar(255),
+ price int,
+ img varchar(255)
+);
